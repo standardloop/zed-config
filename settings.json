@@ -1,5 +1,8 @@
 {
   "disable_ai": true,
+  "buffer_font_features": {
+    "calt": false
+  },
   "autosave": {
     "after_delay": {
       "milliseconds": 500
