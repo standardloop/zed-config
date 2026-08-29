@@ -1,0 +1,30 @@
+---
+version: '3'
+
+vars:
+  SETTINGS_PATH: "~/.config/zed/settings.json"
+  REPO_PATH: "~/Code/zed-config/"
+
+tasks:
+  default:
+    cmds:
+      - task --list
+    silent: true
+
+  cp-config:
+    cmds:
+      - cp {{.SETTINGS_PATH}} {{.REPO_PATH}}
+    silent: true
+    # generates:
+    #   - settings.json
+
+  commit-and-push:
+    deps:
+      - cp-config
+    vars:
+      DATE:
+       sh: date
+    cmds:
+      - git add .
+      - git commit -m "{{.DATE}}"
+      - git push origin main
