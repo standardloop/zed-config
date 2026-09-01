@@ -12,6 +12,32 @@
     }
   },
   "format_on_save": "on",
+  "languages": {
+    "JavaScript": {
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{path}"]
+        }
+      }
+    },
+    "HTML": {
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{path}"]
+        }
+      }
+    },
+    "CSS": {
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{path}"]
+        }
+      }
+    }
+  },
   "disable_ai": true,
   "buffer_font_features": {
     "calt": false
