@@ -50,7 +50,7 @@
   "edit_predictions": {
     "provider": "none"
   },
-  "cli_default_open_behavior": "new_window",
+  "cli_default_open_behavior": "existing_window",
   "icon_theme": "VSCode Icons for Zed (Dark)",
   "project_panel": {
     "dock": "left"
