@@ -19,8 +19,8 @@ tasks:
     #   - settings.json
 
   commit-and-push:
-    deps:
-      - cp-config
+    # deps:
+    #   - cp-config
     vars:
       DATE:
        sh: date

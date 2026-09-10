@@ -6,10 +6,10 @@
           "-I/usr/local/include",
           "-I/usr/local/include/standardloop",
           "-L/usr/local/lib",
-          "-L/usr/local/lib/standardloop",
-        ],
-      },
-    },
+          "-L/usr/local/lib/standardloop"
+        ]
+      }
+    }
   },
   "format_on_save": "on",
   "languages": {
@@ -17,68 +17,68 @@
       "formatter": {
         "external": {
           "command": "/opt/homebrew/bin/biome",
-          "arguments": ["format", "--stdin-file-path={path}"],
-        },
-      },
+          "arguments": ["format", "--stdin-file-path={path}"]
+        }
+      }
     },
     "HTML": {
       "formatter": {
         "external": {
           "command": "/opt/homebrew/bin/biome",
-          "arguments": ["format", "--stdin-file-path={path}"],
-        },
-      },
+          "arguments": ["format", "--stdin-file-path={path}"]
+        }
+      }
     },
     "CSS": {
       "formatter": {
         "external": {
           "command": "/opt/homebrew/bin/biome",
-          "arguments": ["format", "--stdin-file-path={path}"],
-        },
-      },
+          "arguments": ["format", "--stdin-file-path={path}"]
+        }
+      }
     },
     "TOML": {
       "format_on_save": "on",
       "formatter": {
         "external": {
           "command": "/opt/homebrew/bin/taplo",
-          "arguments": ["fmt", "-"],
-        },
-      },
-    },
+          "arguments": ["fmt", "-"]
+        }
+      }
+    }
   },
   "disable_ai": true,
   "buffer_font_features": {
-    "calt": false,
+    "calt": false
   },
   "autosave": {
     "after_delay": {
-      "milliseconds": 500,
-    },
+      "milliseconds": 500
+    }
   },
   "edit_predictions": {
-    "provider": "none",
+    "provider": "none"
   },
   "cli_default_open_behavior": "existing_window",
   "icon_theme": "VSCode Icons for Zed (Dark)",
   "project_panel": {
-    "dock": "left",
+    "dock": "left"
   },
   "outline_panel": {
-    "dock": "left",
+    "dock": "left"
   },
   "collaboration_panel": {
     "button": false,
-    "dock": "left",
+    "dock": "left"
   },
   "agent": {
     "terminal_init_command": "",
     "dock": "right",
     "favorite_models": [],
-    "model_parameters": [],
+    "model_parameters": []
   },
   "git_panel": {
-    "dock": "left",
+    "dock": "left"
   },
   "theme": "VSCode Dark Modern",
   "ui_font_size": 16,
@@ -86,7 +86,7 @@
   "buffer_font_family": "Cascadia Code",
   "git": {
     "inline_blame": {
-      "enabled": false,
-    },
-  },
+      "enabled": false
+    }
+  }
 }
