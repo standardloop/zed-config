@@ -1,4 +1,8 @@
 {
+  "title_bar": {
+    "show_sign_in": false,
+  },
+  "soft_wrap": "editor_width",
   "lsp": {
     "clangd": {
       "initialization_options": {
