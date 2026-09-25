@@ -1,4 +1,7 @@
 {
+  "file_types": {
+    "Plain Text": ["*.deep.yaml"],
+  },
   "title_bar": {
     "show_sign_in": false,
   },
